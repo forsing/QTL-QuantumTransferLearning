@@ -24,7 +24,7 @@ algorithm_globals.random_seed = SEED
 
 
 # Use the existing dataframe
-df_raw = pd.read_csv('/Users/milan/Desktop/GHQ/data/loto7hh_4548_k5.csv')
+df_raw = pd.read_csv('/data/loto7hh_4548_k5.csv')
 # 4548 historical draws of Lotto 7/39 (Serbia)
 
 
@@ -121,7 +121,7 @@ print()
 """
 Quantum Transfer Learning (QTL) Results:
    Num1  Num2  Num3  Num4  Num5  Num6  Num7
-0     5     8    14    17    20    27    35
+0     5     8     x     y     z    27    35
 """
 
 
@@ -150,7 +150,7 @@ Predicted Combination (Quantum Transfer Learning)
 By combining classical feature extraction 
 with a quantum variational head, 
 the model generated the following combination:
-5     8    14    17    20    27    35
+5     8     x     y     z    27    35
 
 Hybrid Synergy: 
 QTL represents the pinnacle of hybrid classical-quantum design. 
@@ -177,43 +177,4 @@ that integrate with existing data processing techniques.
 
 The code for Quantum Transfer Learning has been verified 
 via dry run and is ready for you.
-"""
-
-
-
-
-"""
-VQC 
-QSVR 
-Quantum Data Re-uploading Regression 
-Multi-Qubit VQR 
-QRC 
-QNN 
-QCNN 
-QKA 
-QRNN 
-QMTR 
-QGBR 
-QBR 
-QSR 
-
-
-
-
-QCM
-
-QDR 
-
-QELM
-
-QGPR 
-
-QTL
-
-"""
-
-
-
-"""
-ok for VQC and QSVR and Quantum Data Re-uploading Regression and Multi-Qubit VQR and QRC and QNN and QCNN and QKA and QRNN and QMTR and QGBR and QBR and QSR and QDR and QGPR and QTL and QELM, give next model quantum regression with qiskit
 """
